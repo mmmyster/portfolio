@@ -1,0 +1,19 @@
+:root {
+  --lch-black: 0 0 0;
+  --lch-grey: 0.3211 0 0;
+  --lch-grey-light: 0.9491 0 0;
+  --lch-blue: 0.76 0.1027 236.71;
+  --lch-red: 0.7502 0.1481 34.1;
+  --lch-purple: 0.7071 0.0275 325.86;
+  --lch-beige: 0.7995 0.0584 91.81;
+  --lch-beige-dark: 0.6255 0.0584 91.81;
+
+  --color-black: oklch(var(--lch-black));
+  --color-grey: oklch(var(--lch-grey));
+  --color-grey-light: oklch(var(--lch-grey-light));
+  --color-blue: oklch(var(--lch-blue));
+  --color-red: oklch(var(--lch-red));
+  --color-purple: oklch(var(--lch-purple));
+  --color-beige-dark: oklch(var(--lch-beige-dark));
+  --color-bg: oklch(var(--lch-beige))
+}
